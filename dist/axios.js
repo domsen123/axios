@@ -390,8 +390,8 @@
    *
    * @returns {Object} Result of all merge properties
    */
-  function /* obj1, obj2, obj3, ... */
-  merge() {
+  function merge( /* obj1, obj2, obj3, ... */
+  ) {
     var _ref2 = isContextDefined(this) && this || {},
       caseless = _ref2.caseless;
     var result = {};
